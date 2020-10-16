@@ -1,0 +1,51 @@
+body{
+    background-color: rgb(218, 138, 138);
+    animation-name: mix;
+    animation-duration: 3s;
+    animation-iteration-count: infinite;
+    position: relative;
+    animation-delay: -2s;
+
+  }
+  @keyframes mix {
+    10%   {background-color:rgb(241, 151, 151);}
+    25%  {background-color:rgb(240, 240, 137);}
+    50%  {background-color:rgb(167, 167, 238);}
+    100% {background-color:rgb(241, 144, 144);}
+  }
+     .test1{
+        padding: 4px;
+       flex-direction: row;
+        display: flex;
+      }
+      .test1r{
+          padding: 3PX;
+        }
+        img{
+          width: 300px;
+          height: 400px;
+          margin: 5px;
+          box-shadow: 3px 3px 3px;
+          transition: all 1s;
+          padding: 3px 1px 3px;
+          border: 3px solid #000000;
+          border-radius: 2px;
+          }
+          img:hover{
+          width: 350px;
+          height: 450px;
+          transform: rotate(360deg);
+           
+          }
+  
+  h1 {
+    width: 350px;
+    height: 45px;
+    background: rgb(221, 119, 3);
+    transition: width 2.0s;
+    transition-timing-function: linear;
+  }
+  
+  h1:hover {
+  width: 500px;
+  }
