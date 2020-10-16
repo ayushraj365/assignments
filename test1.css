@@ -42,7 +42,7 @@ body{
     width: 350px;
     height: 45px;
     background: rgb(221, 119, 3);
-    transition: width 2.0s;
+    transform: scale(1.2);
     transition-timing-function: linear;
   }
   
