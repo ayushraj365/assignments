@@ -22,5 +22,6 @@ body{
   .btn:hover{
     background-color: rgb(93, 134, 247);
     transform: scale(1.5);
+      border-width:3px;
        border-color: yellow;
   }
